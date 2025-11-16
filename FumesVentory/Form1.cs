@@ -57,8 +57,8 @@ namespace FumesVentory
             {
                 MessageBox.Show("Login successful");
                 this.Hide();
-                Dashboard Dbf = new Dashboard();
-                Dbf.Show();
+                HomePage Hp = new HomePage();
+                Hp.Show();
             }
             else
             {
